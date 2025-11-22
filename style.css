@@ -1,0 +1,79 @@
+/* Importa a fonte Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+/* Estilo geral da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #cfcdf6de;
+    color: #161616;
+}
+
+/* Container que coloca a foto e os textos lado a lado */
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 40px;
+}
+
+/* Caixa dos textos */
+.info h1,
+.info h2 {
+    margin: 0;
+    text-align: left;
+}
+
+/* Título principal */
+.info h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* Subtítulo */
+.info h2 {
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Bloco de parágrafos */
+.texto {
+    margin-left: 40px;
+}
+
+/* Estilo dos parágrafos */
+.texto p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+footer {
+    text-align: center;
+    margin: 40px;
+    font-size: 14px;
+    color: #555555;
+}
+
+/* Foto redonda */
+img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+
+    /* Anel */
+    outline: 2px solid #ffffff;
+    outline-offset: 0px;
+
+    /* BRILHO 🔥 */
+    box-shadow: 
+        0 0 10px #870cc98b,
+        0 0 20px #5f09a661,
+        0 0 40px #0044ff;
+}
+
+
+
